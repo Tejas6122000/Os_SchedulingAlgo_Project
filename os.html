@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/os.css">
+</head>
+<body>
+    <div id="strip">
+        <button id="reset">New??</button>
+    </div>
+    <div id="detail">
+        <h2 id="dis">Enter Details of process 1</h2>
+       <div id="indetail">
+            Arrival Time:
+            <input type="number" id="at">
+            <br>
+            <br>
+            Burst Time:
+            <input type="number" id="bt"> 
+            <br>
+            <br>
+            <button id="submit">Submit</button>
+       </div>
+    </div>
+    <table id="table1">
+        <thead>
+            <th>Process</th>
+            <th>Arrival Time</th>
+            <th>Burst Time</th>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <br>
+    <div id="gcstrip">
+        <button id="gc">Show Gnatt Chart</button>
+        <div id="options">
+            <button id="fcfs">FCFS</button>
+            <button id="sjf">SJF</button>
+        </div>
+    </div>
+
+    <div style="margin: 30px auto;text-align: center;">
+        <table id="gnattbody">
+            <tr id="row1"><td>Process</td></tr>
+            <tr id="row2"><td>Time</td></tr>
+        </table>
+    </div>
+
+    <div id="avg">
+        <table id="table2">
+            <tbody>
+                <tr>
+                    <td class="avgdis">Average Waiting Time    </td>
+                    <td id="wtdisplay" class="el">     </td>
+                </tr>
+                <tr>
+                    <td class="avgdis">Average Turnaround Time </td>
+                    <td id="tatdisplay" class="el">    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="js/os.js"></script>
+</body>
+</html>
