@@ -1,0 +1,107 @@
+
+body{
+    background-color: lavenderblush;
+    margin: 0px;
+}
+#strip{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 40px;
+    
+    background-color: lightsalmon;
+}
+#dis{
+    font-weight: 300;
+    background-color: lightsalmon;
+}
+#table1{
+    margin: auto auto;
+    width: 60%;
+    
+    
+}
+button{
+    color: white;
+    height: 100%;
+    padding: 10px;
+    font-size: large;
+    letter-spacing: 2px;
+    background-color: salmon;
+    align-content: center;
+    border: 2px solid salmon;
+    outline: none;
+    border-radius: 12px;
+}
+#detail{
+    text-align: center;
+    width: 60%;
+    display: none;
+    margin: 50px auto;
+    background-color: salmon;
+    color: White;
+    font-size: large;
+}
+.el{
+    text-align: center;
+    background-color: lightcoral;
+    border: 2px solid coral;
+    display: block;
+}
+th{
+    border: 2px solid coral;
+    background-color: lightcoral;
+    width: 33%;
+}
+#gcstrip{
+    text-align: center;
+}
+#options{
+    font-size: small;
+    margin-top: 5px;
+    
+    display: none;
+}
+#gnattbody{
+    display: none;
+}
+
+#row1{
+    background-color:salmon;
+    min-width: fit-content;
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    font-size: x-large;
+}
+#row2{
+    background-color:pink;
+    min-width: fit-content;
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+#avg{
+    
+    margin: 30px auto;
+    text-align: center;
+
+}
+.avgdis{
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 2px solid coral;
+    background-color: lightcoral;
+    width: 50%;
+}
+#table2{
+    padding: 2px;
+    width: 60%;
+    font-size: large;
+    font-weight: 300;
+    column-width: 33%;
+    display: none;
+    text-align: center;
+}
