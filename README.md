@@ -32,3 +32,9 @@ Preemptive scheduling is used when a process switches from running state to read
 * CSS
 * JS
 
+## Output Images
+### FCFS
+![FCFS](outputImages/FCFS_Output.png)
+
+### SJF Premptive
+![SJF](outputImages/SJFPremp_Output.png)
